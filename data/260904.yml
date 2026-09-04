@@ -7,7 +7,7 @@ about:
   head: 5b18148
   archived: false
   latestVersion: v1.34.8
-  collectedAt: 2026-09-04T19:57:58Z
+  collectedAt: 2026-09-04T20:45:39Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-01
@@ -86,6 +86,79 @@ total:
   openIssue: 36
   commit: 3000
 ---
+path: /home/runner/.x-repo/github.com/c-ares/c-ares
+collectedAt: 2026-09-04T20:45:41Z
+loc:
+  C:
+    code: 37770
+    comments: 6009
+    blanks: 6354
+    files: 100
+  Cpp:
+    code: 14084
+    comments: 1786
+    blanks: 1911
+    files: 26
+  CHeader:
+    code: 4983
+    comments: 4933
+    blanks: 1376
+    files: 47
+  M4:
+    code: 1537
+    comments: 1040
+    blanks: 400
+    files: 20
+  CMake:
+    code: 1422
+    comments: 492
+    blanks: 412
+    files: 11
+  Bitbake:
+    code: 318
+    comments: 8
+    blanks: 8
+    files: 4
+  Python:
+    code: 206
+    comments: 98
+    blanks: 41
+    files: 1
+  Sh:
+    code: 122
+    comments: 31
+    blanks: 17
+    files: 6
+  Automake:
+    code: 111
+    comments: 59
+    blanks: 52
+    files: 7
+  Autoconf:
+    code: 39
+    comments: 41
+    blanks: 16
+    files: 3
+  Batch:
+    code: 9
+    comments: 10
+    blanks: 4
+    files: 1
+  Markdown:
+    code: 0
+    comments: 1296
+    blanks: 370
+    files: 15
+  Text:
+    code: 0
+    comments: 777
+    blanks: 260
+    files: 8
+total:
+  code: 60613
+  comments: 16580
+  blanks: 11221
+  files: 249
 ---
 date: "2026-08-24"
 repo:
