@@ -5,7 +5,7 @@ about:
   head: 5b18148
   archived: false
   latestVersion: "v1.34.8"
-  collectedAt: 2026-09-07T06:01:02Z
+  collectedAt: 2026-09-07T18:28:42Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-01
@@ -85,7 +85,7 @@ total:
   commit: 3000
 ---
 path: /home/runner/.x-repo/github.com/c-ares/c-ares
-collectedAt: 2026-09-07T06:01:07Z
+collectedAt: 2026-09-07T18:28:45Z
 loc:
   C:
     code: 37770
@@ -309,7 +309,7 @@ checks:
       - 'Warn: 0 commits out of 29 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:01:09+00:00
+  collectedAt: 2026-09-07T18:28:46+00:00
   platform:
     darwin/arm64:
       name:  null
