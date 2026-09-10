@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.34.8"
   latestRelease: "v1.34.8"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T20:27:49Z
+  collectedAt: 2026-09-10T23:23:36Z
 timeline:
   created: 2010-03-20
   lastCommit: 2026-09-01
@@ -89,7 +89,7 @@ total:
   commit: 3000
 ---
 path: /home/runner/.x-repo/github.com/c-ares/c-ares
-collectedAt: 2026-09-10T20:27:54Z
+collectedAt: 2026-09-10T23:23:39Z
 loc:
   C:
     code: 37770
