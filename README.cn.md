@@ -48,7 +48,7 @@ x install c-ares
 
 ## 流行度
 
-- **Star**: 2,190 · **Fork**: 687 · **开放 issue**: 463 · **贡献者**: 167
+- **Star**: 2,192 · **Fork**: 687 · **开放 issue**: 463 · **贡献者**: 167
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install c-ares
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 1 | 12 | 1 | 2 | 1 |
-| last60d | 2026-07-15 | 0 | 2 | 23 | 1 | 8 | 2 |
-| 90d | 2026-06-15 | 2 | 63 | 30 | 4 | 10 | 42 |
-| last180d | 2026-03-17 | 2 | 105 | 34 | 19 | 12 | 76 |
-| 360d | 2025-09-18 | 3 | 120 | 34 | 42 | 14 | 89 |
-| last720d | 2024-09-23 | 9 | 186 | 37 | 86 | 21 | 185 |
+| 30d | 2026-08-15 | 0 | 1 | 12 | 1 | 2 | 1 |
+| last60d | 2026-07-16 | 0 | 2 | 22 | 1 | 8 | 2 |
+| 90d | 2026-06-16 | 2 | 63 | 30 | 4 | 10 | 42 |
+| last180d | 2026-03-18 | 2 | 105 | 34 | 19 | 12 | 71 |
+| 360d | 2025-09-19 | 3 | 120 | 34 | 42 | 14 | 89 |
+| last720d | 2024-09-24 | 9 | 184 | 37 | 85 | 21 | 185 |
 
 ## Release 资产
 
@@ -72,25 +72,6 @@ x install c-ares
 | [c-ares-1.34.8.intoto.jsonl](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.intoto.jsonl) | 16.0 KiB | `other` |
 | [c-ares-1.34.8.tar.gz](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz) | 1011.8 KiB | `native/unknown` |
 | [c-ares-1.34.8.tar.gz.asc](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz.asc) | 265 B | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/c-ares) 上共有 **345** 个发行版报告此项目。**102** 个 ✅ 已是最新上游版本，**167** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.34.8` | ✅ latest |
-| Debian 14 | `1.34.8` | ✅ latest |
-| Debian 13 | `1.34.5` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.34.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.27.0` | ⚠️ outdated |
-| Arch | `1.34.8` | ✅ latest |
-| Homebrew | `1.34.8` | ✅ latest |
-| Fedora rawhide | `1.34.8` | ✅ latest |
-| Nix unstable | `1.34.8` | ✅ latest |
-| Void | `1.34.8` | ✅ latest |
-| Alpine edge | `1.34.8` | ✅ latest |
-| openSUSE Tumbleweed | `1.34.8` | ✅ latest |
 
 ## 改进这些数据
 
@@ -101,4 +82,4 @@ c-ares 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:26:43Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:42:27Z._
