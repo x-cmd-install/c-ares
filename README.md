@@ -4,7 +4,7 @@
 
 A C library for asynchronous DNS requests
 
-![c-ares](https://repo.x-cmd.io/c-ares.svg)
+[![x-cmd/install — c-ares Code Quality Monitoring Repo Card](https://repo.x-cmd.io/c-ares.svg)](https://x-cmd.com/install/c-ares)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,194 · **Forks**: 687 · **Open issues**: 464 · **Contributors**: 167
+- **Stars**: 2,192 · **Forks**: 689 · **Open issues**: 464 · **Contributors**: 167
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 574 · **Open PRs**: 39 · **Closed issues**: 426 · **Open issues**: 38 · **Commits**: 3000
+- **Releases**: 41 · **Merged PRs**: 574 · **Open PRs**: 42 · **Closed issues**: 426 · **Open issues**: 38 · **Commits**: 3000
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 1 | 12 | 0 | 3 | 1 |
-| last60d | 2026-07-20 | 0 | 2 | 20 | 1 | 9 | 2 |
-| 90d | 2026-06-20 | 2 | 63 | 31 | 4 | 11 | 42 |
-| last180d | 2026-03-22 | 2 | 101 | 35 | 19 | 13 | 71 |
-| 360d | 2025-09-23 | 3 | 120 | 35 | 40 | 15 | 89 |
-| last720d | 2024-09-28 | 9 | 182 | 38 | 85 | 22 | 177 |
+| 30d | 2026-08-21 | 0 | 1 | 15 | 0 | 3 | 1 |
+| last60d | 2026-07-22 | 0 | 2 | 22 | 1 | 9 | 2 |
+| 90d | 2026-06-22 | 2 | 63 | 34 | 4 | 11 | 42 |
+| last180d | 2026-03-24 | 2 | 101 | 38 | 19 | 13 | 62 |
+| 360d | 2025-09-25 | 3 | 120 | 38 | 40 | 15 | 89 |
+| last720d | 2024-09-30 | 9 | 182 | 41 | 85 | 22 | 177 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:24:30Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:30:28Z._
