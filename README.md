@@ -4,7 +4,7 @@
 
 A C library for asynchronous DNS requests
 
-[![x-cmd/install — c-ares Code Quality Monitoring Repo Card](https://repo.x-cmd.io/c-ares.svg)](https://x-cmd.com/install/c-ares)
+[![x-cmd/install — c-ares Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/c-ares.svg)](https://x-cmd.com/install/c-ares)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,191 · **Forks**: 691 · **Open issues**: 466 · **Contributors**: 167
+- **Stars**: 2,191 · **Forks**: 692 · **Open issues**: 466 · **Contributors**: 167
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 574 · **Open PRs**: 44 · **Closed issues**: 426 · **Open issues**: 40 · **Commits**: 3000
+- **Releases**: 41 · **Merged PRs**: 574 · **Open PRs**: 45 · **Closed issues**: 426 · **Open issues**: 40 · **Commits**: 3000
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 1 | 17 | 0 | 5 | 1 |
-| last60d | 2026-07-24 | 0 | 2 | 24 | 1 | 11 | 2 |
-| 90d | 2026-06-24 | 2 | 63 | 35 | 4 | 13 | 42 |
-| last180d | 2026-03-26 | 2 | 100 | 40 | 19 | 15 | 62 |
-| 360d | 2025-09-27 | 3 | 120 | 40 | 40 | 17 | 89 |
-| last720d | 2024-10-02 | 9 | 182 | 43 | 85 | 24 | 177 |
+| 30d | 2026-08-24 | 0 | 1 | 15 | 0 | 4 | 1 |
+| last60d | 2026-07-25 | 0 | 2 | 25 | 1 | 11 | 2 |
+| 90d | 2026-06-25 | 2 | 63 | 36 | 4 | 13 | 42 |
+| last180d | 2026-03-27 | 2 | 100 | 41 | 19 | 15 | 62 |
+| 360d | 2025-09-28 | 3 | 120 | 41 | 40 | 17 | 89 |
+| last720d | 2024-10-03 | 9 | 182 | 44 | 84 | 24 | 177 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:28:14Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:34:23Z._
