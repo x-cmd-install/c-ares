@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,193 · **Forks**: 699 · **Open issues**: 467 · **Contributors**: 166
+- **Stars**: 2,193 · **Forks**: 698 · **Open issues**: 467 · **Contributors**: 166
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 575 · **Open PRs**: 62 · **Closed issues**: 426 · **Open issues**: 41 · **Commits**: 3001
+- **Releases**: 41 · **Merged PRs**: 575 · **Open PRs**: 52 · **Closed issues**: 426 · **Open issues**: 41 · **Commits**: 3001
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 1 | 26 | 0 | 4 | 1 |
-| last60d | 2026-08-06 | 0 | 2 | 37 | 1 | 10 | 2 |
-| 90d | 2026-07-07 | 1 | 3 | 52 | 1 | 13 | 3 |
-| last180d | 2026-04-08 | 2 | 74 | 58 | 13 | 15 | 47 |
-| 360d | 2025-10-10 | 3 | 121 | 58 | 40 | 18 | 89 |
-| last720d | 2024-10-15 | 7 | 179 | 61 | 81 | 25 | 161 |
+| 30d | 2026-09-06 | 0 | 1 | 17 | 0 | 4 | 1 |
+| last60d | 2026-08-07 | 0 | 2 | 27 | 1 | 9 | 2 |
+| 90d | 2026-07-08 | 0 | 3 | 42 | 1 | 13 | 3 |
+| last180d | 2026-04-09 | 2 | 74 | 48 | 13 | 15 | 47 |
+| 360d | 2025-10-11 | 3 | 121 | 48 | 40 | 18 | 89 |
+| last720d | 2024-10-16 | 6 | 179 | 51 | 81 | 25 | 160 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:49:10Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:42:31Z._
