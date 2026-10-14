@@ -26,13 +26,13 @@ Total: **60,601** lines of code across **204** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.3 / 10**
+Overall score: **6.2 / 10**
 
 Lowest-scoring checks:
 
 - **Code-Review** (1/10) — Found 5/26 approved changesets -- score normalized to 1
+- **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,192 · **Forks**: 701 · **Open issues**: 467 · **Contributors**: 166
+- **Stars**: 2,194 · **Forks**: 703 · **Open issues**: 468 · **Contributors**: 166
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 575 · **Open PRs**: 56 · **Closed issues**: 425 · **Open issues**: 42 · **Commits**: 3001
+- **Releases**: 41 · **Merged PRs**: 575 · **Open PRs**: 57 · **Closed issues**: 425 · **Open issues**: 43 · **Commits**: 3001
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-13 | 0 | 1 | 20 | 0 | 5 | 1 |
-| last60d | 2026-08-14 | 0 | 2 | 31 | 1 | 7 | 2 |
-| 90d | 2026-07-15 | 0 | 3 | 42 | 1 | 13 | 3 |
-| last180d | 2026-04-16 | 2 | 73 | 52 | 10 | 16 | 47 |
-| 360d | 2025-10-18 | 3 | 120 | 52 | 38 | 19 | 89 |
-| last720d | 2024-10-23 | 6 | 177 | 55 | 80 | 26 | 159 |
+| 30d | 2026-09-14 | 0 | 1 | 20 | 0 | 6 | 1 |
+| last60d | 2026-08-15 | 0 | 2 | 31 | 1 | 8 | 2 |
+| 90d | 2026-07-16 | 0 | 3 | 41 | 1 | 14 | 3 |
+| last180d | 2026-04-17 | 2 | 73 | 53 | 10 | 17 | 47 |
+| 360d | 2025-10-19 | 3 | 120 | 53 | 38 | 20 | 89 |
+| last720d | 2024-10-24 | 6 | 177 | 56 | 80 | 27 | 158 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261013.yml` · 2026-10-13T08:20:56Z._
+_Snapshot: `data/card/261014.yml` · 2026-10-14T06:15:58Z._
