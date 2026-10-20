@@ -14,13 +14,13 @@ x install c-ares
 
 ## 代码洞察
 
-合计: **63,876** 行代码（覆盖前 5 种语言、共 **205** 个文件）。
+合计: **64,544** 行代码（覆盖前 5 种语言、共 **205** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 38,523 | 6,572 | 6,508 | 101 |
-| Cpp | 16,562 | 2,208 | 2,304 | 26 |
-| CHeader | 5,015 | 5,105 | 1,393 | 47 |
+| C | 38,622 | 6,645 | 6,526 | 101 |
+| Cpp | 17,118 | 2,300 | 2,382 | 26 |
+| CHeader | 5,028 | 5,203 | 1,400 | 47 |
 | M4 | 1,537 | 1,040 | 400 | 20 |
 | CMake | 1,433 | 496 | 413 | 11 |
 
@@ -42,36 +42,36 @@ x install c-ares
 
 ## 发布
 
-- **最新版本**: `v1.34.8` (2026-07-07)
-- **最近提交**: 2026-10-19
+- **最新版本**: `v1.34.9` (2026-10-20)
+- **最近提交**: 2026-10-20
 - **Release 含资产**: 3 个
 
 ## 流行度
 
-- **Star**: 2,196 · **Fork**: 706 · **开放 issue**: 469 · **贡献者**: 182
+- **Star**: 2,196 · **Fork**: 708 · **开放 issue**: 469 · **贡献者**: 184
 
 ## 累计统计
 
-- **发布数**: 41 · **已合并 PR**: 611 · **开放 PR**: 35 · **已关闭 issue**: 430 · **开放 issue**: 39 · **提交数**: 3028
+- **发布数**: 42 · **已合并 PR**: 631 · **开放 PR**: 30 · **已关闭 issue**: 430 · **开放 issue**: 39 · **提交数**: 3037
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 28 | 11 | 2 | 4 | 28 |
-| last60d | 2026-08-20 | 0 | 29 | 21 | 3 | 6 | 29 |
-| 90d | 2026-07-21 | 0 | 35 | 22 | 5 | 11 | 30 |
-| last180d | 2026-04-22 | 2 | 108 | 31 | 12 | 13 | 74 |
-| 360d | 2025-10-24 | 3 | 156 | 31 | 43 | 16 | 116 |
-| last720d | 2024-10-29 | 6 | 213 | 34 | 83 | 23 | 183 |
+| 30d | 2026-09-20 | 1 | 47 | 7 | 2 | 3 | 37 |
+| last60d | 2026-08-21 | 1 | 49 | 16 | 3 | 6 | 38 |
+| 90d | 2026-07-22 | 1 | 55 | 17 | 5 | 11 | 39 |
+| last180d | 2026-04-23 | 3 | 128 | 26 | 12 | 13 | 83 |
+| 360d | 2025-10-25 | 4 | 176 | 26 | 43 | 16 | 125 |
+| last720d | 2024-10-30 | 7 | 233 | 29 | 83 | 23 | 192 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [c-ares-1.34.8.intoto.jsonl](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.intoto.jsonl) | 16.0 KiB | `other` |
-| [c-ares-1.34.8.tar.gz](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz) | 1011.8 KiB | `native/unknown` |
-| [c-ares-1.34.8.tar.gz.asc](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz.asc) | 265 B | `other` |
+| [c-ares-1.34.9.intoto.jsonl](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.intoto.jsonl) | 14.9 KiB | `other` |
+| [c-ares-1.34.9.tar.gz](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.tar.gz) | 1.0 MiB | `native/unknown` |
+| [c-ares-1.34.9.tar.gz.asc](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.tar.gz.asc) | 265 B | `other` |
 
 ## 改进这些数据
 
@@ -82,4 +82,4 @@ c-ares 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261019.yml` · 2026-10-19T05:47:45Z._
+_数据快照: `data/card/261020.yml` · 2026-10-20T06:09:15Z._

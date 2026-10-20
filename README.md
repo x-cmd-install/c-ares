@@ -14,13 +14,13 @@ x install c-ares
 
 ## Code insight
 
-Total: **63,876** lines of code across **205** files in the top 5 languages.
+Total: **64,544** lines of code across **205** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 38,523 | 6,572 | 6,508 | 101 |
-| Cpp | 16,562 | 2,208 | 2,304 | 26 |
-| CHeader | 5,015 | 5,105 | 1,393 | 47 |
+| C | 38,622 | 6,645 | 6,526 | 101 |
+| Cpp | 17,118 | 2,300 | 2,382 | 26 |
+| CHeader | 5,028 | 5,203 | 1,400 | 47 |
 | M4 | 1,537 | 1,040 | 400 | 20 |
 | CMake | 1,433 | 496 | 413 | 11 |
 
@@ -42,36 +42,36 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.34.8` (2026-07-07)
-- **Last commit**: 2026-10-19
+- **Latest**: `v1.34.9` (2026-10-20)
+- **Last commit**: 2026-10-20
 - **Assets in release**: 3
 
 ## Popularity
 
-- **Stars**: 2,196 · **Forks**: 706 · **Open issues**: 469 · **Contributors**: 182
+- **Stars**: 2,196 · **Forks**: 708 · **Open issues**: 469 · **Contributors**: 184
 
 ## Totals (cumulative)
 
-- **Releases**: 41 · **Merged PRs**: 611 · **Open PRs**: 35 · **Closed issues**: 430 · **Open issues**: 39 · **Commits**: 3028
+- **Releases**: 42 · **Merged PRs**: 631 · **Open PRs**: 30 · **Closed issues**: 430 · **Open issues**: 39 · **Commits**: 3037
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 0 | 28 | 11 | 2 | 4 | 28 |
-| last60d | 2026-08-20 | 0 | 29 | 21 | 3 | 6 | 29 |
-| 90d | 2026-07-21 | 0 | 35 | 22 | 5 | 11 | 30 |
-| last180d | 2026-04-22 | 2 | 108 | 31 | 12 | 13 | 74 |
-| 360d | 2025-10-24 | 3 | 156 | 31 | 43 | 16 | 116 |
-| last720d | 2024-10-29 | 6 | 213 | 34 | 83 | 23 | 183 |
+| 30d | 2026-09-20 | 1 | 47 | 7 | 2 | 3 | 37 |
+| last60d | 2026-08-21 | 1 | 49 | 16 | 3 | 6 | 38 |
+| 90d | 2026-07-22 | 1 | 55 | 17 | 5 | 11 | 39 |
+| last180d | 2026-04-23 | 3 | 128 | 26 | 12 | 13 | 83 |
+| 360d | 2025-10-25 | 4 | 176 | 26 | 43 | 16 | 125 |
+| last720d | 2024-10-30 | 7 | 233 | 29 | 83 | 23 | 192 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [c-ares-1.34.8.intoto.jsonl](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.intoto.jsonl) | 16.0 KiB | `other` |
-| [c-ares-1.34.8.tar.gz](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz) | 1011.8 KiB | `native/unknown` |
-| [c-ares-1.34.8.tar.gz.asc](https://github.com/c-ares/c-ares/releases/download/v1.34.8/c-ares-1.34.8.tar.gz.asc) | 265 B | `other` |
+| [c-ares-1.34.9.intoto.jsonl](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.intoto.jsonl) | 14.9 KiB | `other` |
+| [c-ares-1.34.9.tar.gz](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.tar.gz) | 1.0 MiB | `native/unknown` |
+| [c-ares-1.34.9.tar.gz.asc](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.tar.gz.asc) | 265 B | `other` |
 
 ## Improve this data
 
@@ -82,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:47:44Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T06:09:14Z._
