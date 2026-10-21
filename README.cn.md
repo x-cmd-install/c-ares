@@ -26,13 +26,13 @@ x install c-ares
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.2 / 10**
+总评分: **7.1 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (1/10) — Found 5/26 approved changesets -- score normalized to 1
-- **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## 源代码
 
@@ -48,22 +48,22 @@ x install c-ares
 
 ## 流行度
 
-- **Star**: 2,196 · **Fork**: 708 · **开放 issue**: 469 · **贡献者**: 184
+- **Star**: 2,196 · **Fork**: 709 · **开放 issue**: 470 · **贡献者**: 183
 
 ## 累计统计
 
-- **发布数**: 42 · **已合并 PR**: 631 · **开放 PR**: 30 · **已关闭 issue**: 430 · **开放 issue**: 39 · **提交数**: 3037
+- **发布数**: 42 · **已合并 PR**: 629 · **开放 PR**: 32 · **已关闭 issue**: 430 · **开放 issue**: 40 · **提交数**: 3037
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 1 | 47 | 7 | 2 | 3 | 37 |
-| last60d | 2026-08-21 | 1 | 49 | 16 | 3 | 6 | 38 |
-| 90d | 2026-07-22 | 1 | 55 | 17 | 5 | 11 | 39 |
-| last180d | 2026-04-23 | 3 | 128 | 26 | 12 | 13 | 83 |
-| 360d | 2025-10-25 | 4 | 176 | 26 | 43 | 16 | 125 |
-| last720d | 2024-10-30 | 7 | 233 | 29 | 83 | 23 | 192 |
+| 30d | 2026-09-21 | 1 | 45 | 9 | 1 | 4 | 35 |
+| last60d | 2026-08-22 | 1 | 47 | 18 | 3 | 7 | 36 |
+| 90d | 2026-07-23 | 1 | 53 | 19 | 5 | 12 | 37 |
+| last180d | 2026-04-24 | 3 | 126 | 28 | 12 | 14 | 81 |
+| 360d | 2025-10-26 | 4 | 174 | 28 | 43 | 17 | 123 |
+| last720d | 2024-10-31 | 7 | 231 | 31 | 83 | 24 | 192 |
 
 ## Release 资产
 
@@ -82,4 +82,4 @@ c-ares 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261020.yml` · 2026-10-20T06:09:15Z._
+_数据快照: `data/card/261021.yml` · 2026-10-21T05:56:15Z._

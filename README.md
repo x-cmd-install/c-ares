@@ -26,13 +26,13 @@ Total: **64,544** lines of code across **205** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.2 / 10**
+Overall score: **7.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (1/10) — Found 5/26 approved changesets -- score normalized to 1
-- **Maintained** (4/10) — 3 commit(s) and 2 issue activity found in the last 90 days -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,196 · **Forks**: 708 · **Open issues**: 469 · **Contributors**: 184
+- **Stars**: 2,196 · **Forks**: 709 · **Open issues**: 470 · **Contributors**: 183
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 631 · **Open PRs**: 30 · **Closed issues**: 430 · **Open issues**: 39 · **Commits**: 3037
+- **Releases**: 42 · **Merged PRs**: 629 · **Open PRs**: 32 · **Closed issues**: 430 · **Open issues**: 40 · **Commits**: 3037
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 1 | 47 | 7 | 2 | 3 | 37 |
-| last60d | 2026-08-21 | 1 | 49 | 16 | 3 | 6 | 38 |
-| 90d | 2026-07-22 | 1 | 55 | 17 | 5 | 11 | 39 |
-| last180d | 2026-04-23 | 3 | 128 | 26 | 12 | 13 | 83 |
-| 360d | 2025-10-25 | 4 | 176 | 26 | 43 | 16 | 125 |
-| last720d | 2024-10-30 | 7 | 233 | 29 | 83 | 23 | 192 |
+| 30d | 2026-09-21 | 1 | 45 | 9 | 1 | 4 | 35 |
+| last60d | 2026-08-22 | 1 | 47 | 18 | 3 | 7 | 36 |
+| 90d | 2026-07-23 | 1 | 53 | 19 | 5 | 12 | 37 |
+| last180d | 2026-04-24 | 3 | 126 | 28 | 12 | 14 | 81 |
+| 360d | 2025-10-26 | 4 | 174 | 28 | 43 | 17 | 123 |
+| last720d | 2024-10-31 | 7 | 231 | 31 | 83 | 24 | 192 |
 
 ## Release assets
 
@@ -82,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T06:09:14Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:56:14Z._
