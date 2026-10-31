@@ -1,14 +1,25 @@
-- repo: amazon_2
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libcares2
+    - libc-ares2
+  visiblename: c-ares
+  version: 1.34.9
+  origversion: 1.34.9-1
+  status: newest
+  maintainers:
+    - gjasny@googlemail.com
+  categories:
+    - libs
+- repo: aix_osp
   srcname: c-ares
   visiblename: c-ares
-  version: 1.19.1
-  origversion: 1.19.1-1.amzn2.0.1
-  status: outdated
-  summary: A library that performs asynchronous DNS operations
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
+  version: 1.7.1
+  origversion: 1.7.1-1
+  status: legacy
+  vulnerable: true
 - repo: aerynos
   srcname: c-ares
   visiblename: c-ares
@@ -167,16 +178,6 @@
     - clandmeter@alpinelinux.org
   licenses:
     - MIT
-- repo: crux_38
-  subrepo: opt
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.34.9
-  origversion: null
-  status: newest
-  summary: Asynchronous C DNS library
-  maintainers:
-    - tbier@posteo.de
 - repo: alpine_3_19
   subrepo: main
   srcname: c-ares
@@ -190,197 +191,201 @@
     - clandmeter@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_3_19
+- repo: deepin_25
   subrepo: main
   srcname: c-ares
-  binname: c-ares-static
-  visiblename: c-ares-static
-  version: 1.27.0
-  origversion: 1.27.0-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library (static library)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-utils
-  visiblename: c-ares-utils
-  version: 1.27.0
-  origversion: 1.27.0-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares
-  visiblename: c-ares
-  version: 1.33.1
-  origversion: 1.33.1-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-dev
-  visiblename: c-ares-dev
-  version: 1.33.1
-  origversion: 1.33.1-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library (development files)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-doc
-  visiblename: c-ares-doc
-  version: 1.33.1
-  origversion: 1.33.1-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library (documentation)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-static
-  visiblename: c-ares-static
-  version: 1.33.1
-  origversion: 1.33.1-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library (static library)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-utils
-  visiblename: c-ares-utils
-  version: 1.33.1
-  origversion: 1.33.1-r0
-  status: outdated
-  summary: Asynchronous DNS/names resolver library
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares
-  visiblename: c-ares
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-dev
-  visiblename: c-ares-dev
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library (development files)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-doc
-  visiblename: c-ares-doc
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library (documentation)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-utils
-  visiblename: c-ares-utils
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares
-  visiblename: c-ares
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-dev
-  visiblename: c-ares-dev
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library (development files)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: main
-  srcname: c-ares
-  binname: c-ares-doc
-  visiblename: c-ares-doc
-  version: 1.34.9
-  origversion: 1.34.9-r0
-  status: newest
-  summary: Asynchronous DNS/names resolver library (documentation)
-  maintainers:
-    - clandmeter@alpinelinux.org
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: c-aresMinimal
+  binnames:
+    - libc-ares-dev
+    - libcares2
+    - libc-ares2
   visiblename: c-ares
   version: 1.34.6
-  origversion: null
+  origversion: 1.34.6-1deepin2
   status: outdated
-  summary: C library for asynchronous DNS requests
   maintainers:
-    - fallback-mnt-nix@repology
+    - gjasny@googlemail.com
+  categories:
+    - misc
+- repo: alpine_3_19
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-static
+  visiblename: c-ares-static
+  version: 1.27.0
+  origversion: 1.27.0-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library (static library)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-utils
+  visiblename: c-ares-utils
+  version: 1.27.0
+  origversion: 1.27.0-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares
+  visiblename: c-ares
+  version: 1.33.1
+  origversion: 1.33.1-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-dev
+  visiblename: c-ares-dev
+  version: 1.33.1
+  origversion: 1.33.1-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library (development files)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-doc
+  visiblename: c-ares-doc
+  version: 1.33.1
+  origversion: 1.33.1-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library (documentation)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-static
+  visiblename: c-ares-static
+  version: 1.33.1
+  origversion: 1.33.1-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library (static library)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-utils
+  visiblename: c-ares-utils
+  version: 1.33.1
+  origversion: 1.33.1-r0
+  status: outdated
+  summary: Asynchronous DNS/names resolver library
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares
+  visiblename: c-ares
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-dev
+  visiblename: c-ares-dev
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library (development files)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-doc
+  visiblename: c-ares-doc
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library (documentation)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-utils
+  visiblename: c-ares-utils
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares
+  visiblename: c-ares
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-dev
+  visiblename: c-ares-dev
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library (development files)
+  maintainers:
+    - clandmeter@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: main
+  srcname: c-ares
+  binname: c-ares-doc
+  visiblename: c-ares-doc
+  version: 1.34.9
+  origversion: 1.34.9-r0
+  status: newest
+  summary: Asynchronous DNS/names resolver library (documentation)
+  maintainers:
+    - clandmeter@alpinelinux.org
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -590,6 +595,17 @@
     - MIT
   categories:
     - System/Libraries
+- repo: amazon_2
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.19.1
+  origversion: 1.19.1-1.amzn2.0.1
+  status: outdated
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: aosc
   srcname: runtime-network/c-ares
   binname: c-ares
@@ -640,15 +656,15 @@
   licenses:
     - MIT
 - repo: aur
-  srcname: c-ares-git
-  binname: c-ares-git
-  visiblename: c-ares-git
-  version: 1.29.0.r366.g71663adc
-  origversion: 1.29.0.r366.g71663adc-1
-  status: rolling
+  srcname: lib32-c-ares
+  binname: lib32-c-ares
+  visiblename: lib32-c-ares
+  version: 1.34.6
+  origversion: 1.34.6-1
+  status: outdated
   summary: A C library for asynchronous DNS requests
   maintainers:
-    - chocobo1@aur
+    - codingthunder@aur
   licenses:
     - MIT
 - repo: aur
@@ -664,15 +680,15 @@
   licenses:
     - MIT
 - repo: aur
-  srcname: lib32-c-ares
-  binname: lib32-c-ares
-  visiblename: lib32-c-ares
-  version: 1.34.6
-  origversion: 1.34.6-1
-  status: outdated
+  srcname: c-ares-git
+  binname: c-ares-git
+  visiblename: c-ares-git
+  version: 1.29.0.r366.g71663adc
+  origversion: 1.29.0.r366.g71663adc-1
+  status: rolling
   summary: A C library for asynchronous DNS requests
   maintainers:
-    - codingthunder@aur
+    - chocobo1@aur
   licenses:
     - MIT
 - repo: artix
@@ -927,6 +943,16 @@
   summary: Asynchronous C DNS library
   maintainers:
     - tbier@posteo.de
+- repo: crux_38
+  subrepo: opt
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.34.9
+  origversion: null
+  status: newest
+  summary: Asynchronous C DNS library
+  maintainers:
+    - tbier@posteo.de
 - repo: cygwin
   srcname: c-ares
   binname: c-ares-debuginfo
@@ -1007,21 +1033,6 @@
     - libcares2
     - libc-ares2
   visiblename: c-ares
-  version: 1.34.8
-  origversion: 1.34.8-1
-  status: outdated
-  maintainers:
-    - gjasny@googlemail.com
-  categories:
-    - libs
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libcares2
-    - libc-ares2
-  visiblename: c-ares
   version: 1.34.9
   origversion: 1.34.9-1
   status: newest
@@ -1029,23 +1040,8 @@
     - gjasny@googlemail.com
   categories:
     - libs
-- repo: deepin_25
-  subrepo: main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libcares2
-    - libc-ares2
-  visiblename: c-ares
-  version: 1.34.6
-  origversion: 1.34.6-1deepin2
-  status: outdated
-  maintainers:
-    - gjasny@googlemail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
+- repo: debian_unstable
+  subrepo: sid/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
@@ -1140,23 +1136,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: c-ares
-  binnames:
-    - c-ares
-    - c-ares-devel
-    - c-ares-debuginfo
-    - c-ares-debugsource
-  visiblename: c-ares
-  version: 1.34.5
-  origversion: 1.34.5-1.fc40
-  status: outdated
-  summary: A library that performs asynchronous DNS operations
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: c-ares
   binnames:
@@ -1173,15 +1152,25 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: haikuports_master
+  srcname: net-dns/c_ares
+  visiblename: net-dns/c_ares
+  version: 1.34.8
+  origversion: null
+  status: outdated
+  categories:
+    - net-dns
+- repo: fedora_40
   subrepo: updates
   srcname: c-ares
   binnames:
     - c-ares
     - c-ares-devel
+    - c-ares-debuginfo
+    - c-ares-debugsource
   visiblename: c-ares
   version: 1.34.5
-  origversion: 1.34.5-1.fc41
+  origversion: 1.34.5-1.fc40
   status: outdated
   summary: A library that performs asynchronous DNS operations
   licenses:
@@ -1198,6 +1187,21 @@
   version: 1.33.0
   origversion: 1.33.0-1.fc41
   status: legacy
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: c-ares
+  binnames:
+    - c-ares
+    - c-ares-devel
+  visiblename: c-ares
+  version: 1.34.5
+  origversion: 1.34.5-1.fc41
+  status: outdated
   summary: A library that performs asynchronous DNS operations
   licenses:
     - MIT
@@ -1234,21 +1238,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: c-ares
-  binnames:
-    - c-ares
-    - c-ares-devel
-  visiblename: c-ares
-  version: 1.34.8
-  origversion: 1.34.8-1.fc43
-  status: outdated
-  summary: A library that performs asynchronous DNS operations
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: c-ares
   binnames:
@@ -1263,16 +1252,16 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: release
+- repo: fedora_43
+  subrepo: updates
   srcname: c-ares
   binnames:
     - c-ares
     - c-ares-devel
   visiblename: c-ares
-  version: 1.34.6
-  origversion: 1.34.6-3.fc44
-  status: legacy
+  version: 1.34.8
+  origversion: 1.34.8-1.fc43
+  status: outdated
   summary: A library that performs asynchronous DNS operations
   licenses:
     - MIT
@@ -1293,21 +1282,21 @@
     - MIT
   categories:
     - Unspecified
-- repo: raspbian_stable
-  subrepo: main
+- repo: fedora_44
+  subrepo: release
   srcname: c-ares
   binnames:
-    - libc-ares-dev
-    - libcares2
-    - libc-ares2
+    - c-ares
+    - c-ares-devel
   visiblename: c-ares
-  version: 1.34.5
-  origversion: 1.34.5-1+deb13u1
-  status: outdated
-  maintainers:
-    - gjasny@googlemail.com
+  version: 1.34.6
+  origversion: 1.34.6-3.fc44
+  status: legacy
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
   categories:
-    - libs
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: c-ares
@@ -1393,14 +1382,6 @@
   origversion: null
   status: outdated
   summary: C library for asynchronous DNS requests
-- repo: haikuports_master
-  srcname: net-dns/c_ares
-  visiblename: net-dns/c_ares
-  version: 1.34.8
-  origversion: null
-  status: outdated
-  categories:
-    - net-dns
 - repo: homebrew
   srcname: c-ares
   visiblename: c-ares
@@ -1522,17 +1503,6 @@
     - ISC
   categories:
     - net-dns
-- repo: openindiana
-  subrepo: hipster
-  srcname: c-ares
-  binname: library/libcares
-  visiblename: c-ares
-  version: 1.34.9
-  origversion: null
-  status: newest
-  summary: c-ares - C library for asynchronous DNS requests
-  categories:
-    - System/Libraries
 - repo: liguros_develop
   srcname: net-dns/c-ares
   visiblename: net-dns/c-ares
@@ -1563,23 +1533,6 @@
   categories:
     - net
 - repo: mageia_9
-  subrepo: core/updates
-  srcname: c-ares
-  binnames:
-    - libcares2
-    - libcares-devel
-    - c-ares-debuginfo
-    - c-ares-debugsource
-  visiblename: c-ares
-  version: 1.19.1
-  origversion: 1.19.1-1.1.mga9
-  status: outdated
-  summary: A library that performs asynchronous DNS operations
-  licenses:
-    - MIT
-  categories:
-    - System/Libraries
-- repo: mageia_9
   subrepo: core/release
   srcname: c-ares
   binnames:
@@ -1590,6 +1543,23 @@
   visiblename: c-ares
   version: 1.19.1
   origversion: 1.19.1-1.mga9
+  status: outdated
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - System/Libraries
+- repo: mageia_9
+  subrepo: core/updates
+  srcname: c-ares
+  binnames:
+    - libcares2
+    - libcares-devel
+    - c-ares-debuginfo
+    - c-ares-debugsource
+  visiblename: c-ares
+  version: 1.19.1
+  origversion: 1.19.1-1.1.mga9
   status: outdated
   summary: A library that performs asynchronous DNS operations
   licenses:
@@ -1729,6 +1699,18 @@
     - spdx:MIT
   categories:
     - libraries
+- repo: openbsd
+  srcname: net/libcares
+  binname: libcares
+  visiblename: net/libcares
+  version: 1.34.9
+  origversion: null
+  status: newest
+  summary: asynchronous resolver library
+  maintainers:
+    - brad@comstyle.com
+  categories:
+    - net
 - repo: msys2_msys2
   subrepo: x86_64
   srcname: c-ares
@@ -1829,6 +1811,17 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: c-aresMinimal
+  visiblename: c-ares
+  version: 1.34.6
+  origversion: null
+  status: outdated
+  summary: C library for asynchronous DNS requests
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: c-ares
   visiblename: c-ares
@@ -1873,18 +1866,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
-- repo: openbsd
-  srcname: net/libcares
-  binname: libcares
-  visiblename: net/libcares
-  version: 1.34.9
-  origversion: null
-  status: newest
-  summary: asynchronous resolver library
-  maintainers:
-    - brad@comstyle.com
-  categories:
-    - net
 - repo: openeuler_24_03_lts
   srcname: c-ares
   binnames:
@@ -1972,6 +1953,17 @@
   version: 1.34.8
   origversion: null
   status: legacy
+  summary: c-ares - C library for asynchronous DNS requests
+  categories:
+    - System/Libraries
+- repo: openindiana
+  subrepo: hipster
+  srcname: c-ares
+  binname: library/libcares
+  visiblename: c-ares
+  version: 1.34.9
+  origversion: null
+  status: newest
   summary: c-ares - C library for asynchronous DNS requests
   categories:
     - System/Libraries
@@ -2206,7 +2198,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
@@ -2221,7 +2213,7 @@
   categories:
     - libs
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
@@ -2323,6 +2315,21 @@
     - gjasny@googlemail.com
   categories:
     - libdevel
+- repo: raspbian_stable
+  subrepo: main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libcares2
+    - libc-ares2
+  visiblename: c-ares
+  version: 1.34.5
+  origversion: 1.34.5-1+deb13u1
+  status: outdated
+  maintainers:
+    - gjasny@googlemail.com
+  categories:
+    - libs
 - repo: raspbian_testing
   subrepo: main
   srcname: c-ares
@@ -2331,9 +2338,9 @@
     - libcares2
     - libc-ares2
   visiblename: c-ares
-  version: 1.34.8
-  origversion: 1.34.8-1
-  status: outdated
+  version: 1.34.9
+  origversion: 1.34.9-1
+  status: newest
   maintainers:
     - gjasny@googlemail.com
   categories:
@@ -2350,6 +2357,15 @@
     - fallback-mnt-ravenports@repology
   categories:
     - dns
+- repo: wikidata
+  srcname: Q102478619
+  visiblename: c-ares
+  version: 1.34.9
+  origversion: null
+  status: newest
+  summary: library for asynchronous DNS requests
+  licenses:
+    - MIT License
 - repo: rocky_9
   subrepo: BaseOS
   srcname: c-ares
@@ -2600,6 +2616,20 @@
   maintainers:
     - termux@github
 - repo: ubuntu_24_04
+  subrepo: noble-updates/main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libcares2
+  visiblename: c-ares
+  version: 1.27.0
+  origversion: 1.27.0-1.0ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - libs
+- repo: ubuntu_24_04
   subrepo: noble/main
   srcname: c-ares
   binnames:
@@ -2613,15 +2643,16 @@
     - ubuntu-devel-discuss@lists.ubuntu.com
   categories:
     - libs
-- repo: ubuntu_24_04
-  subrepo: noble-updates/main
+- repo: ubuntu_25_04
+  subrepo: plucky-updates/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
     - libcares2
+    - libc-ares2
   visiblename: c-ares
-  version: 1.27.0
-  origversion: 1.27.0-1.0ubuntu1.1
+  version: 1.34.4
+  origversion: 1.34.4-2.1ubuntu0.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -2642,19 +2673,19 @@
     - gjasny@googlemail.com
   categories:
     - libs
-- repo: ubuntu_25_04
-  subrepo: plucky-updates/main
+- repo: ubuntu_25_10
+  subrepo: questing/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
     - libcares2
     - libc-ares2
   visiblename: c-ares
-  version: 1.34.4
-  origversion: 1.34.4-2.1ubuntu0.2
+  version: 1.34.5
+  origversion: 1.34.5-1
   status: outdated
   maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
+    - gjasny@googlemail.com
   categories:
     - libs
 - repo: ubuntu_25_10
@@ -2670,21 +2701,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - libs
-- repo: ubuntu_25_10
-  subrepo: questing/main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libcares2
-    - libc-ares2
-  visiblename: c-ares
-  version: 1.34.5
-  origversion: 1.34.5-1
-  status: outdated
-  maintainers:
-    - gjasny@googlemail.com
   categories:
     - libs
 - repo: ubuntu_26_04
@@ -2775,15 +2791,6 @@
   summary: C library for asynchronous DNS requests
   maintainers:
     - wonkru-dev@proton.me
-- repo: wikidata
-  srcname: Q102478619
-  visiblename: c-ares
-  version: 1.34.9
-  origversion: null
-  status: newest
-  summary: library for asynchronous DNS requests
-  licenses:
-    - MIT License
 - repo: xrepo
   srcname: c-ares
   visiblename: c-ares
@@ -2922,82 +2929,36 @@
 - repo: aix_osp
   srcname: c-ares
   visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-1
+  version: 1.8.0
+  origversion: 1.8.0-2
   status: legacy
   vulnerable: true
-- repo: amazon_2
+- repo: aix_osp
   srcname: c-ares
   visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-3.amzn2.0.4
+  version: 1.9.1
+  origversion: 1.9.1-1
   status: legacy
-  summary: A library that performs asynchronous DNS operations
+  vulnerable: true
+- repo: xrepo
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.17.0
+  origversion: null
+  status: legacy
+  summary: A C library for asynchronous DNS requests
   licenses:
     - MIT
-  categories:
-    - System Environment/Libraries
   vulnerable: true
-- repo: aix_osp
+- repo: xrepo
   srcname: c-ares
   visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-2
+  version: 1.17.1
+  origversion: null
   status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.12.0
-  origversion: 1.12.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.13.0
-  origversion: 1.13.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.14.0
-  origversion: 1.14.0-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: outdated
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.7.1
-  origversion: 1.7.1-1
-  status: legacy
-  vulnerable: true
-- repo: amazon_2
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-3.amzn2.0.5
-  status: legacy
-  summary: A library that performs asynchronous DNS operations
+  summary: A C library for asynchronous DNS requests
   licenses:
     - MIT
-  categories:
-    - System Environment/Libraries
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.7.1
-  origversion: 1.7.1-2
-  status: legacy
   vulnerable: true
 - repo: aix_osp
   srcname: c-ares
@@ -3037,65 +2998,76 @@
 - repo: aix_osp
   srcname: c-ares
   visiblename: c-ares
-  version: 1.8.0
-  origversion: 1.8.0-2
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.9.1
-  origversion: 1.9.1-1
-  status: legacy
-  vulnerable: true
-- repo: aix_osp
-  srcname: c-ares
-  visiblename: c-ares
   version: 1.9.1
   origversion: 1.9.1-2
   status: legacy
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_32
-  srcname: c_ares
-  binname: c_ares
-  visiblename: c_ares
-  version: 1.4.0
-  origversion: null
-  status: legacy
-  vulnerable: true
-- repo: amazon_2
+- repo: almalinux_8
+  subrepo: BaseOS
   srcname: c-ares
   visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-3.amzn2.0.6
-  status: legacy
+  version: 1.13.0
+  origversion: 1.13.0-10.el8
+  status: outdated
   summary: A library that performs asynchronous DNS operations
+  maintainers:
+    - packager@almalinux.org
   licenses:
     - MIT
   categories:
     - System Environment/Libraries
   vulnerable: true
-- repo: hpux_11_31
-  subrepo: ia64_64
-  srcname: c_ares
-  binname: c_ares
-  visiblename: c_ares
-  version: 1.16.1
-  origversion: null
-  status: legacy
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libc-ares2
+  visiblename: c-ares
+  version: 1.17.1
+  origversion: 1.17.1-1+deb11u3
+  status: outdated
+  maintainers:
+    - gjasny@googlemail.com
+  categories:
+    - libs
   vulnerable: true
-- repo: amazon_2
+- repo: almalinux_8
+  subrepo: BaseOS
   srcname: c-ares
   visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-3.amzn2
-  status: legacy
+  version: 1.13.0
+  origversion: 1.13.0-11.el8_10
+  status: outdated
   summary: A library that performs asynchronous DNS operations
+  maintainers:
+    - packager@almalinux.org
   licenses:
     - MIT
   categories:
     - System Environment/Libraries
+  vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libc-ares2
+  visiblename: c-ares
+  version: 1.18.1
+  origversion: 1.18.1-deepin1
+  status: outdated
+  maintainers:
+    - gjasny@googlemail.com
+  categories:
+    - libs
+  vulnerable: true
+- repo: aix_osp
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.7.1
+  origversion: 1.7.1-2
+  status: legacy
   vulnerable: true
 - repo: adelie_current
   subrepo: user
@@ -3139,6 +3111,19 @@
   licenses:
     - MIT
   vulnerable: true
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.13.0
+  origversion: 1.13.0-6.el8_8.2
+  status: outdated
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
 - repo: adelie_current
   subrepo: user
   srcname: c-ares
@@ -3153,35 +3138,47 @@
   licenses:
     - MIT
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
   srcname: c-ares
   visiblename: c-ares
-  version: 1.13.0
-  origversion: 1.13.0-10.el8
-  status: outdated
-  summary: A library that performs asynchronous DNS operations
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
+  version: 1.10.0
+  origversion: 1.10.0-1
+  status: legacy
   vulnerable: true
-- repo: almalinux_8
-  subrepo: BaseOS
+- repo: aix_osp
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.10.0
+  origversion: 1.10.0-2
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.12.0
+  origversion: 1.12.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
   srcname: c-ares
   visiblename: c-ares
   version: 1.13.0
-  origversion: 1.13.0-11.el8_10
+  origversion: 1.13.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.14.0
+  origversion: 1.14.0-1
+  status: legacy
+  vulnerable: true
+- repo: aix_osp
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.15.0
+  origversion: 1.15.0-1
   status: outdated
-  summary: A library that performs asynchronous DNS operations
-  maintainers:
-    - packager@almalinux.org
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
   vulnerable: true
 - repo: amazon_1
   subrepo: main
@@ -3265,6 +3262,54 @@
   visiblename: c-ares
   version: 1.10.0
   origversion: 1.10.0-3.amzn2.0.3
+  status: legacy
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.10.0
+  origversion: 1.10.0-3.amzn2.0.4
+  status: legacy
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.10.0
+  origversion: 1.10.0-3.amzn2.0.5
+  status: legacy
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.10.0
+  origversion: 1.10.0-3.amzn2.0.6
+  status: legacy
+  summary: A library that performs asynchronous DNS operations
+  licenses:
+    - MIT
+  categories:
+    - System Environment/Libraries
+  vulnerable: true
+- repo: amazon_2
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.10.0
+  origversion: 1.10.0-3.amzn2
   status: legacy
   summary: A library that performs asynchronous DNS operations
   licenses:
@@ -3567,7 +3612,7 @@
     - Devel
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye-security/main
+  subrepo: bullseye/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
@@ -3582,7 +3627,7 @@
     - libs
   vulnerable: true
 - repo: debian_11
-  subrepo: bullseye/main
+  subrepo: bullseye-security/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
@@ -3636,49 +3681,6 @@
   status: legacy
   maintainers:
     - gjasny@googlemail.com
-  vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libc-ares2
-  visiblename: c-ares
-  version: 1.18.1
-  origversion: 1.18.1-deepin1
-  status: outdated
-  maintainers:
-    - gjasny@googlemail.com
-  categories:
-    - libs
-  vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libc-ares2
-  visiblename: c-ares
-  version: 1.17.1
-  origversion: 1.17.1-1+deb11u3
-  status: outdated
-  maintainers:
-    - gjasny@googlemail.com
-  categories:
-    - libs
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.13.0
-  origversion: 1.13.0-6.el8_8.2
-  status: outdated
-  summary: A library that performs asynchronous DNS operations
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
   vulnerable: true
 - repo: eurolinux_8
   subrepo: baseos
@@ -3802,15 +3804,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: gnuguix
-  srcname: c-ares
-  binname: c-ares
-  visiblename: c-ares
-  version: 1.18.1
-  origversion: null
-  status: legacy
-  summary: C library for asynchronous DNS requests
-  vulnerable: true
 - repo: fedora_40
   subrepo: release
   srcname: mingw-c-ares
@@ -3828,22 +3821,6 @@
     - Unspecified
   vulnerable: true
 - repo: fedora_41
-  subrepo: updates
-  srcname: mingw-c-ares
-  binnames:
-    - mingw32-c-ares
-    - mingw64-c-ares
-  visiblename: mingw-c-ares
-  version: 1.17.2
-  origversion: 1.17.2-10.fc41
-  status: outdated
-  summary: Library that performs asynchronous DNS operations
-  licenses:
-    - MIT and BSD and ISC
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: fedora_41
   subrepo: release
   srcname: mingw-c-ares
   binnames:
@@ -3852,6 +3829,22 @@
   visiblename: mingw-c-ares
   version: 1.17.2
   origversion: 1.17.2-9.fc41
+  status: outdated
+  summary: Library that performs asynchronous DNS operations
+  licenses:
+    - MIT and BSD and ISC
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: fedora_41
+  subrepo: updates
+  srcname: mingw-c-ares
+  binnames:
+    - mingw32-c-ares
+    - mingw64-c-ares
+  visiblename: mingw-c-ares
+  version: 1.17.2
+  origversion: 1.17.2-10.fc41
   status: outdated
   summary: Library that performs asynchronous DNS operations
   licenses:
@@ -3925,6 +3918,15 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: gnuguix
+  srcname: c-ares
+  binname: c-ares
+  visiblename: c-ares
+  version: 1.18.1
+  origversion: null
+  status: legacy
+  summary: C library for asynchronous DNS requests
+  vulnerable: true
 - repo: gobolinux
   srcname: C-Ares
   visiblename: C-Ares
@@ -3953,6 +3955,24 @@
   origversion: null
   status: legacy
   vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_32
+  srcname: c_ares
+  binname: c_ares
+  visiblename: c_ares
+  version: 1.4.0
+  origversion: null
+  status: legacy
+  vulnerable: true
+- repo: hpux_11_31
+  subrepo: ia64_64
+  srcname: c_ares
+  binname: c_ares
+  visiblename: c_ares
+  version: 1.16.1
+  origversion: null
+  status: legacy
+  vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: c-ares
   visiblename: c-ares
@@ -3976,6 +3996,16 @@
     - MIT
   categories:
     - Unspecified
+  vulnerable: true
+- repo: xrepo
+  srcname: c-ares
+  visiblename: c-ares
+  version: 1.17.2
+  origversion: null
+  status: legacy
+  summary: A C library for asynchronous DNS requests
+  licenses:
+    - MIT
   vulnerable: true
 - repo: openeuler_22_03_lts_sp1
   srcname: c-ares
@@ -4179,17 +4209,18 @@
   maintainers:
     - volkerdi@slackware.com
   vulnerable: true
-- repo: ubuntu_20_04
-  subrepo: focal/main
+- repo: ubuntu_14_04
+  subrepo: trusty-updates/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
     - libc-ares2
   visiblename: c-ares
-  version: 1.15.0
-  origversion: 1.15.0-1build1
+  version: 1.10.0
+  origversion: 1.10.0-2ubuntu0.2
   status: outdated
   maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - gjasny@googlemail.com
   categories:
     - libs
@@ -4210,15 +4241,15 @@
   categories:
     - libs
   vulnerable: true
-- repo: ubuntu_14_04
-  subrepo: trusty-updates/main
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
   srcname: c-ares
   binnames:
     - libc-ares-dev
     - libc-ares2
   visiblename: c-ares
   version: 1.10.0
-  origversion: 1.10.0-2ubuntu0.2
+  origversion: 1.10.0-3ubuntu0.2
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4238,22 +4269,6 @@
   status: outdated
   maintainers:
     - andreas@debian.org
-    - gjasny@googlemail.com
-  categories:
-    - libs
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libc-ares2
-  visiblename: c-ares
-  version: 1.10.0
-  origversion: 1.10.0-3ubuntu0.2
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
     - gjasny@googlemail.com
   categories:
     - libs
@@ -4289,6 +4304,21 @@
     - libs
   vulnerable: true
 - repo: ubuntu_20_04
+  subrepo: focal/main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libc-ares2
+  visiblename: c-ares
+  version: 1.15.0
+  origversion: 1.15.0-1build1
+  status: outdated
+  maintainers:
+    - gjasny@googlemail.com
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_20_04
   subrepo: focal-updates/main
   srcname: c-ares
   binnames:
@@ -4297,6 +4327,21 @@
   visiblename: c-ares
   version: 1.15.0
   origversion: 1.15.0-1ubuntu0.5
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - libs
+  vulnerable: true
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/main
+  srcname: c-ares
+  binnames:
+    - libc-ares-dev
+    - libc-ares2
+  visiblename: c-ares
+  version: 1.18.1
+  origversion: 1.18.1-1ubuntu0.22.04.4
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -4318,55 +4363,10 @@
   categories:
     - libs
   vulnerable: true
-- repo: ubuntu_22_04
-  subrepo: jammy-updates/main
-  srcname: c-ares
-  binnames:
-    - libc-ares-dev
-    - libc-ares2
-  visiblename: c-ares
-  version: 1.18.1
-  origversion: 1.18.1-1ubuntu0.22.04.4
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - libs
-  vulnerable: true
 - repo: xrepo
   srcname: c-ares
   visiblename: c-ares
   version: 1.16.1
-  origversion: null
-  status: legacy
-  summary: A C library for asynchronous DNS requests
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.17.0
-  origversion: null
-  status: legacy
-  summary: A C library for asynchronous DNS requests
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.17.1
-  origversion: null
-  status: legacy
-  summary: A C library for asynchronous DNS requests
-  licenses:
-    - MIT
-  vulnerable: true
-- repo: xrepo
-  srcname: c-ares
-  visiblename: c-ares
-  version: 1.17.2
   origversion: null
   status: legacy
   summary: A C library for asynchronous DNS requests
