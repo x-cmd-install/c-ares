@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,206 · **Forks**: 723 · **Open issues**: 479 · **Contributors**: 182
+- **Stars**: 2,207 · **Forks**: 724 · **Open issues**: 479 · **Contributors**: 182
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 628 · **Open PRs**: 52 · **Closed issues**: 434 · **Open issues**: 45 · **Commits**: 3038
+- **Releases**: 42 · **Merged PRs**: 628 · **Open PRs**: 54 · **Closed issues**: 434 · **Open issues**: 45 · **Commits**: 3038
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 1 | 37 | 27 | 3 | 9 | 33 |
-| last60d | 2026-09-04 | 1 | 45 | 33 | 5 | 11 | 34 |
-| 90d | 2026-08-05 | 1 | 49 | 38 | 8 | 16 | 35 |
-| last180d | 2026-05-07 | 3 | 123 | 48 | 11 | 19 | 80 |
-| 360d | 2025-11-08 | 4 | 173 | 48 | 44 | 22 | 122 |
-| last720d | 2024-11-13 | 6 | 225 | 51 | 83 | 28 | 181 |
+| 30d | 2026-10-05 | 1 | 37 | 29 | 3 | 9 | 33 |
+| last60d | 2026-09-05 | 1 | 45 | 35 | 5 | 11 | 34 |
+| 90d | 2026-08-06 | 1 | 48 | 40 | 8 | 15 | 35 |
+| last180d | 2026-05-08 | 3 | 123 | 50 | 11 | 19 | 80 |
+| 360d | 2025-11-09 | 4 | 173 | 50 | 44 | 22 | 122 |
+| last720d | 2024-11-14 | 6 | 224 | 53 | 81 | 28 | 181 |
 
 ## Release assets
 
@@ -75,7 +75,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **341** distros on [repology.org](https://repology.org/project/c-ares). **77** are ✅ on the latest upstream release, **184** are ⚠️ on an older version.
+Reported by **341** distros on [repology.org](https://repology.org/project/c-ares). **78** are ✅ on the latest upstream release, **183** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -101,4 +101,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T08:21:03Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T07:44:30Z._
