@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,215 · **Forks**: 728 · **Open issues**: 479 · **Contributors**: 182
+- **Stars**: 2,214 · **Forks**: 733 · **Open issues**: 479 · **Contributors**: 182
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 628 · **Open PRs**: 60 · **Closed issues**: 434 · **Open issues**: 45 · **Commits**: 3038
+- **Releases**: 42 · **Merged PRs**: 628 · **Open PRs**: 64 · **Closed issues**: 434 · **Open issues**: 45 · **Commits**: 3038
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-17 | 1 | 34 | 34 | 2 | 7 | 1 |
-| last60d | 2026-09-17 | 1 | 45 | 39 | 5 | 10 | 34 |
-| 90d | 2026-08-18 | 1 | 46 | 46 | 6 | 12 | 35 |
-| last180d | 2026-05-20 | 3 | 122 | 55 | 11 | 19 | 76 |
-| 360d | 2025-11-21 | 4 | 173 | 56 | 41 | 21 | 122 |
-| last720d | 2024-11-26 | 6 | 224 | 59 | 79 | 28 | 180 |
+| 30d | 2026-10-20 | 1 | 1 | 34 | 2 | 6 | 1 |
+| last60d | 2026-09-20 | 1 | 44 | 42 | 5 | 9 | 34 |
+| 90d | 2026-08-21 | 1 | 46 | 50 | 6 | 12 | 35 |
+| last180d | 2026-05-23 | 3 | 122 | 59 | 11 | 19 | 76 |
+| 360d | 2025-11-24 | 4 | 173 | 60 | 41 | 21 | 122 |
+| last720d | 2024-11-29 | 6 | 223 | 63 | 79 | 28 | 180 |
 
 ## Release assets
 
@@ -75,7 +75,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **342** distros on [repology.org](https://repology.org/project/c-ares). **95** are ✅ on the latest upstream release, **165** are ⚠️ on an older version.
+Reported by **342** distros on [repology.org](https://repology.org/project/c-ares). **97** are ✅ on the latest upstream release, **163** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,7 +90,7 @@ Reported by **342** distros on [repology.org](https://repology.org/project/c-are
 | Nix unstable | `1.34.9` | ✅ latest |
 | Void | `1.34.9` | ✅ latest |
 | Alpine edge | `1.34.9` | ✅ latest |
-| openSUSE Tumbleweed | `1.34.8` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.34.9` | ✅ latest |
 
 ## Improve this data
 
@@ -101,4 +101,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261116.yml` · 2026-11-16T08:53:44Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T09:43:43Z._
