@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 1 | 29 | 2 | 7 | 1 |
-| last60d | 2026-09-23 | 1 | 43 | 41 | 3 | 11 | 34 |
-| 90d | 2026-08-24 | 1 | 46 | 47 | 6 | 13 | 35 |
-| last180d | 2026-05-26 | 3 | 120 | 59 | 11 | 21 | 76 |
-| 360d | 2025-11-27 | 4 | 173 | 60 | 41 | 23 | 122 |
-| last720d | 2024-12-02 | 6 | 223 | 63 | 79 | 30 | 180 |
+| 30d | 2026-10-24 | 0 | 1 | 28 | 2 | 7 | 1 |
+| last60d | 2026-09-24 | 1 | 43 | 40 | 3 | 11 | 34 |
+| 90d | 2026-08-25 | 1 | 46 | 47 | 6 | 13 | 35 |
+| last180d | 2026-05-27 | 3 | 120 | 59 | 11 | 21 | 76 |
+| 360d | 2025-11-28 | 4 | 173 | 60 | 41 | 23 | 122 |
+| last720d | 2024-12-03 | 6 | 223 | 63 | 79 | 30 | 180 |
 
 ## Release assets
 
@@ -101,4 +101,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T08:46:13Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T09:40:42Z._
