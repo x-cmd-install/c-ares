@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 2,218 · **Forks**: 733 · **Open issues**: 481 · **Contributors**: 182
+- **Stars**: 2,218 · **Forks**: 734 · **Open issues**: 481 · **Contributors**: 182
 
 ## Totals (cumulative)
 
-- **Releases**: 42 · **Merged PRs**: 628 · **Open PRs**: 65 · **Closed issues**: 434 · **Open issues**: 47 · **Commits**: 3038
+- **Releases**: 42 · **Merged PRs**: 628 · **Open PRs**: 69 · **Closed issues**: 434 · **Open issues**: 47 · **Commits**: 3038
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 1 | 29 | 2 | 6 | 1 |
-| last60d | 2026-09-25 | 1 | 43 | 40 | 3 | 11 | 34 |
-| 90d | 2026-08-26 | 1 | 46 | 48 | 6 | 13 | 35 |
-| last180d | 2026-05-28 | 3 | 120 | 60 | 11 | 21 | 76 |
-| 360d | 2025-11-29 | 4 | 173 | 61 | 41 | 23 | 122 |
-| last720d | 2024-12-04 | 6 | 223 | 64 | 79 | 30 | 180 |
+| 30d | 2026-10-26 | 0 | 1 | 33 | 2 | 6 | 1 |
+| last60d | 2026-09-26 | 1 | 43 | 44 | 3 | 11 | 34 |
+| 90d | 2026-08-27 | 1 | 46 | 51 | 6 | 13 | 35 |
+| last180d | 2026-05-29 | 3 | 120 | 64 | 11 | 21 | 76 |
+| 360d | 2025-11-30 | 4 | 173 | 65 | 41 | 23 | 122 |
+| last720d | 2024-12-05 | 6 | 223 | 68 | 79 | 30 | 180 |
 
 ## Release assets
 
@@ -72,25 +72,6 @@ Lowest-scoring checks:
 | [c-ares-1.34.9.intoto.jsonl](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.intoto.jsonl) | 14.9 KiB | `other` |
 | [c-ares-1.34.9.tar.gz](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.tar.gz) | 1.0 MiB | `native/unknown` |
 | [c-ares-1.34.9.tar.gz.asc](https://github.com/c-ares/c-ares/releases/download/v1.34.9/c-ares-1.34.9.tar.gz.asc) | 265 B | `other` |
-
-## Distribution status
-
-Reported by **341** distros on [repology.org](https://repology.org/project/c-ares). **104** are ✅ on the latest upstream release, **156** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.34.9` | ✅ latest |
-| Debian 14 | `1.34.9` | ✅ latest |
-| Debian 13 | `1.34.9` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.34.6` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.27.0` | ⚠️ outdated |
-| Arch | `1.34.9` | ✅ latest |
-| Homebrew | `1.34.9` | ✅ latest |
-| Fedora rawhide | `1.34.9` | ✅ latest |
-| Nix unstable | `1.34.9` | ✅ latest |
-| Void | `1.34.9` | ✅ latest |
-| Alpine edge | `1.34.9` | ✅ latest |
-| openSUSE Tumbleweed | `1.34.9` | ✅ latest |
 
 ## Improve this data
 
@@ -101,4 +82,4 @@ Install metadata for c-ares lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:54:49Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T09:39:21Z._
